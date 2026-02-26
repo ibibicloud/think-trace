@@ -1,0 +1,25 @@
+{
+    "name": "ibibicloud/think-trace",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+    	"php": ">=8.0.2",
+        "ibibicloud/think-framework": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\trace\\": "src"
+        }
+    },
+    "extra": {
+        "think":{
+            "services":[
+                "think\\trace\\Service"
+            ],
+            "config":{
+                "trace": "src/config.php"
+            }
+        }
+    },    
+    "minimum-stability": "dev"
+}
