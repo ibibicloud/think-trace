@@ -1,14 +1,18 @@
-# think-trace
 
+## think-trace 调试
 用于ThinkPHP8.1的页面Trace扩展，支持Html页面和浏览器控制台两种方式输出。
 
-## 安装
+基于版本 https://github.com/top-think/think-trace/tree/v2.0
+
+文档地址 https://doc.thinkphp.cn/v8_0/trace.html
+
+### 安装
 
 ~~~
 composer require ibibicloud/think-trace
 ~~~
 
-## 配置
+### 配置
 
 安装后config目录下会自带trace.php配置文件。
 
