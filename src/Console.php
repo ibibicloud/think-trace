@@ -13,7 +13,14 @@ use think\Response;
 class Console
 {
     protected $config = [
-        'tabs' => ['base' => '基本', 'file' => '文件', 'info' => '流程', 'notice|error' => '错误', 'sql' => 'SQL', 'debug|log' => '调试'],
+        'tabs' => [
+            'base'         => '基本',
+            'file'         => '文件',
+            'info'         => '流程',
+            'notice|error' => '错误',
+            'sql'          => 'SQL',
+            'debug|log'    => '调试'
+        ],
     ];
 
     // 实例化并传入参数
@@ -162,4 +169,5 @@ JS;
 
         return $info;
     }
+
 }

@@ -10,4 +10,5 @@ class Service extends BaseService
     {
         $this->app->middleware->add(TraceDebug::class);
     }
+    
 }
